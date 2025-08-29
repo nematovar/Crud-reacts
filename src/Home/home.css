@@ -124,8 +124,8 @@ line-height: 15px;
     color: rgb(237, 239, 241); 
 }
 
-.dark .name{
-    color: rgb(237, 239, 241); zz  
+.dark , .name{
+    color: rgb(237, 239, 241); 
 }
 
 .modal{
