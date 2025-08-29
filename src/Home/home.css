@@ -1,0 +1,193 @@
+
+
+.btn{
+    width: 80px;
+    height: 56px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    color: rgb(17, 21, 23);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;  
+    margin-left: 93%;
+}
+
+.btns{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.delete{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 15px;
+}
+
+.update{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px; 
+    background: blue;
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.dark .btn{
+    background: rgb(32, 44, 54);
+    color: white;
+}
+
+.item{
+    margin-top: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+li{
+    width: 300px;
+height: auto;
+border-radius: 5px;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+background: rgb(255, 255, 255);
+padding: 5px;
+  
+  img{
+    width: 264px;
+height: 350px;
+margin-left: 10px;
+  }
+
+  .card_content{
+    padding: 16px;
+  }
+
+  h2{
+    width: 270px;
+    height: 30px;
+    color: rgb(17, 21, 23);
+font-family: Nunito Sans;
+font-size: 12px;
+font-weight: 800;
+line-height: 15px;
+  }
+
+  h3{
+    color: rgb(17, 21, 23);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 15px; 
+    margin-top: 20px;
+  }
+
+  h4{
+    color: rgb(17, 21, 23);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 15px; 
+    margin-top: 10px; 
+  }
+
+  p{
+    width: 270px;
+    height: 210px;
+    color: rgb(17, 21, 23);
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    padding-top: 10px;
+  }
+
+}
+
+.dark .modal {
+    background: rgb(32, 44, 54);
+    color: rgb(237, 239, 241); 
+}
+
+.dark .name{
+    color: rgb(237, 239, 241); zz  
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 20;
+    width: 400px;
+    max-width: 90%;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: Nunito Sans;
+    color: #000;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    font-size: medium;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.add_btn{
+    background-color: rgb(71, 139, 194);
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 40px;
+}
+
